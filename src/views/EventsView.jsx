@@ -22,18 +22,7 @@ const EventsView = ({ events = [], onSelectEvent }) => {
             <div className="container mx-auto px-4 sm:px-6">
                 <SectionHeader title="The Calendar" subtitle="Global Circuit" center />
 
-                {/* Filter Tabs */}
-                <div className="flex justify-center mb-12 md:mb-16 gap-4 md:gap-8 flex-wrap">
-                    {['all', 'upcoming', 'active', 'completed'].map((f) => (
-                        <button
-                            key={f}
-                            onClick={() => setFilter(f)}
-                            className={`font-['Montserrat'] text-[10px] uppercase tracking-[0.25em] transition-all duration-300 ${filter === f ? 'text-[#C5A059] border-b border-[#C5A059] pb-2' : 'text-gray-600 hover:text-white pb-2'}`}
-                        >
-                            {f}
-                        </button>
-                    ))}
-                </div>
+                {/* Filter Tabs - Hidden */}
 
                 {/* Events Grid */}
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">

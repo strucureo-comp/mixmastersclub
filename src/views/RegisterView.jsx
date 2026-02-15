@@ -248,7 +248,7 @@ const RegisterView = ({ preSelectedRole = 'artist', preSelectedEventId = '', eve
                                     <div className="space-y-4 sm:space-y-8">
                                         <div className="group space-y-1 sm:space-y-2">
                                             <label className="text-[9px] sm:text-[10px] font-['Montserrat'] text-gray-500 uppercase tracking-[0.3em] group-focus-within:text-[#C5A059] transition-colors">Full Name</label>
-                                            <input name="fullName" value={formData.fullName} onChange={handleInputChange} type="text" required className="w-full bg-[#0d0d0d] border border-white/10 px-3 sm:px-4 py-3 sm:py-4 text-white font-['Cinzel'] text-base sm:text-lg focus:border-[#C5A059] outline-none transition-all" placeholder="REAL NAME" />
+                                            <input name="fullName" value={formData.fullName} onChange={handleInputChange} type="text" required className="w-full bg-[#0d0d0d] border border-white/10 px-3 sm:px-4 py-3 sm:py-4 text-white font-['Cinzel'] text-base sm:text-lg focus:border-[#C5A059] outline-none transition-all" placeholder="NAME" />
                                         </div>
                                     </div>
                                     <div className="space-y-4 sm:space-y-8">

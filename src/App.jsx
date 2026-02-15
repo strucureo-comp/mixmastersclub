@@ -545,14 +545,14 @@ export default function App() {
               <h4 className="font-['Montserrat'] text-[9px] text-white uppercase tracking-[0.2em] mb-6 font-bold">Explore</h4>
               <ul className="space-y-4">
                 <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('about')}>About</li>
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('judges')}>The Council</li>
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('gallery')}>Archive</li>
+                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('judges')}>Judges</li>
+                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('gallery')}>Gallery</li>
               </ul>
             </div>
             <div>
               <h4 className="font-['Montserrat'] text-[9px] text-white uppercase tracking-[0.2em] mb-6 font-bold">Details</h4>
               <ul className="space-y-4">
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('faq')}>Intel</li>
+                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('faq')}>FAQ</li>
                 <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('results')}>Results</li>
               </ul>
             </div>
@@ -560,17 +560,10 @@ export default function App() {
               <h4 className="font-['Montserrat'] text-[9px] text-white uppercase tracking-[0.2em] mb-6 font-bold">Alliance</h4>
               <ul className="space-y-4">
                 <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('sponsors')}>Partners</li>
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('contact')}>Concierge</li>
+                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('contact')}>Contact</li>
               </ul>
             </div>
-            <div>
-              <h4 className="font-['Montserrat'] text-[9px] text-white uppercase tracking-[0.2em] mb-6 font-bold">Legal</h4>
-              <ul className="space-y-4">
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors">Privacy</li>
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors">Terms</li>
-                <li className="font-['Montserrat'] text-[9px] text-gray-600 uppercase tracking-[0.2em] hover:text-[#C5A059] cursor-pointer transition-colors" onClick={() => navigateTo('admin')}>Admin</li>
-              </ul>
-            </div>
+
           </div>
 
           {/* Alliance Footer Strip */}

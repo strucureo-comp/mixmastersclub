@@ -121,8 +121,8 @@ const DEFAULT_CONTENT = {
 const SEED_EVENTS = [
   {
     id: 'mainsession-2026',
-    title: 'Main Event – Night Circuit',
-    slug: 'main-event-night-circuit',
+    title: 'Mix Masters Club Presents International Tamil DJ Battle',
+    slug: 'mix-masters-club-presents-international-tamil-dj-battle',
     date: '2026-05-22',
     location: 'Hard Rock Cafe, Singapore',
     status: 'Active',
@@ -133,21 +133,6 @@ const SEED_EVENTS = [
     isMainEvent: true,
     description: 'The flagship mix battle, with DJs representing the global Tamil community.',
     price: 'SGD 20,000 prize pool',
-  },
-  {
-    id: 'afterglow-qualifier',
-    title: 'Afterglow Qualifier',
-    slug: 'afterglow-qualifier',
-    date: '2026-05-19',
-    location: 'Singapore Arts Club',
-    status: 'Upcoming',
-    mediaType: 'image',
-    mediaUrl: 'https://images.unsplash.com/photo-1470229722913-7ea2d9863438?auto=format&fit=crop&q=80&w=1200',
-    posterUrl: 'https://images.unsplash.com/photo-1522851457198-d820fd909c09?auto=format&fit=crop&q=80&w=1200',
-    image: 'https://images.unsplash.com/photo-1522851457198-d820fd909c09?auto=format&fit=crop&q=80&w=1200',
-    isMainEvent: false,
-    description: 'Qualify for the showcase with your most daring set.',
-    price: 'Early bird: SGD 35',
   },
 ];
 
