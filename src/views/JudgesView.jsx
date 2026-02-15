@@ -7,13 +7,13 @@ const JudgesView = ({ judges = [] }) => {
     return (
         <div className="pt-28 md:pt-40 pb-16 md:pb-24 min-h-screen bg-[#050505]">
             <div className="container mx-auto px-4 sm:px-6">
-                <SectionHeader title="The Council" subtitle="Arbiters of Taste" center />
+                <SectionHeader title="Judges" subtitle="Arbiters of Taste" center />
                 {!hasJudges ? (
                     <div className="flex flex-col items-center justify-center py-24">
                         <div className="text-center">
                             <h2 className="font-['Cinzel'] text-3xl md:text-5xl text-white mb-6 tracking-[0.1em]">REVEAL SOON</h2>
                             <p className="font-['Montserrat'] text-gray-500 text-sm md:text-base uppercase tracking-[0.2em] max-w-md mx-auto">
-                                The Council members will be announced closer to the event. Stay tuned.
+                                The Judges will be announced closer to the event. Stay tuned.
                             </p>
                             <div className="h-px w-16 bg-[#C5A059]/50 mx-auto mt-8" />
                         </div>

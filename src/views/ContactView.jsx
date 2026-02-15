@@ -6,7 +6,7 @@ import Button from '../components/ui/Button';
 const ContactView = () => (
     <div className="pt-28 md:pt-40 pb-16 md:pb-24 min-h-screen bg-[#020202]">
         <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
-            <SectionHeader title="Contact" subtitle="Concierge" center />
+            <SectionHeader title="Contact" subtitle="Get in Touch" center />
             <div className="grid md:grid-cols-2 gap-12 md:gap-24">
                 <div className="space-y-12">
                     <div>

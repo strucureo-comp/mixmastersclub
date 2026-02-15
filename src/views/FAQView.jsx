@@ -46,7 +46,7 @@ const FAQView = ({ faq = [] }) => {
     return (
     <div className="pt-28 md:pt-40 pb-16 md:pb-24 min-h-screen bg-[#050505]">
         <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
-            <SectionHeader title="Intel" subtitle="Information" center />
+            <SectionHeader title="FAQ" subtitle="Information" center />
             <div className="space-y-px bg-white/5 border border-white/5">
                 {list.map((item, i) => (
                     <div key={i} className="bg-[#050505] p-6 md:p-10 hover:bg-[#0a0a0a] transition-colors group cursor-pointer">

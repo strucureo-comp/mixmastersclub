@@ -8,7 +8,7 @@ const GalleryView = ({ gallery = [] }) => {
     return (
         <div className="pt-28 md:pt-40 pb-16 md:pb-24 min-h-screen bg-[#020202]">
             <div className="container mx-auto px-4 sm:px-6">
-                <SectionHeader title="The Archive" subtitle="Visual History" center />
+                <SectionHeader title="Gallery" subtitle="Visual History" center />
                 {!hasGallery ? (
                     <div className="flex flex-col items-center justify-center py-24">
                         <div className="text-center">
