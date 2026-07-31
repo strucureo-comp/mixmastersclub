@@ -56,7 +56,7 @@ const MOBILE_NAV_ITEMS = [
   { label: 'GALLERY', page: 'gallery' },
   { label: 'FAQ', page: 'faq' },
   { label: 'CONTACT', page: 'contact' },
-  { label: 'REGISTER', page: 'register' },
+  { label: 'BOOK NOW', page: 'register' },
 ];
 
 const ADMIN_SESSION_KEY = 'mix_masters_admin_auth';

@@ -150,7 +150,7 @@ const HomeView = ({ navigateTo, mainEvent, judges = [], sponsors = [], settings 
 
                 <FadeIn delay={1100}>
                     <div className="flex flex-col md:flex-row gap-8 items-center">
-                        <Button variant="gold" onClick={() => navigateTo('register', 'artist')}>DJ Registration</Button>
+                        <Button variant="gold" onClick={() => navigateTo('register', 'artist')}>Book Now</Button>
                     </div>
                 </FadeIn>
             </div>
